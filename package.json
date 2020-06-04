@@ -9,6 +9,10 @@
     "start": "ts-node src/index.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
+  "engines": {
+    "node": ">=10.0.0",
+    "yarn": ">=1.0.0"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
