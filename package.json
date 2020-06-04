@@ -10,8 +10,8 @@
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "engines": {
-    "node": ">=10.0.0",
-    "yarn": ">=1.0.0"
+    "node": "13.11.0",
+    "yarn": "1.21.1"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
