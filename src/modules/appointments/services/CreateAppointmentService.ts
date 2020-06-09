@@ -1,8 +1,8 @@
 import { startOfHour } from 'date-fns'; // parseISO é de string para date
 import { getCustomRepository } from 'typeorm';
 
-import AppError from '../errors/AppError';
-import Appointment from '../models/Appointment';
+import AppError from '@shared/errors/AppError';
+import Appointment from '../infra/typeorm/entities/Appointment';
 import AppointmentsRepository from '../repositories/AppointmentRepository';
 
 interface Request {
