@@ -33,7 +33,7 @@ export default class ListProviderAppointmentsService {
     let appointments = await this.cacheProvider.recover<Appointment[]>(cacheKey);
 
     if(!appointments){
-      const appointments = await this.appointmentsRepository.findAllInDayFromProvider({
+     appointments = await this.appointmentsRepository.findAllInDayFromProvider({
         provider_id,
         day,
         month,
